@@ -67,8 +67,8 @@ fun ButtonPanel(
             ),
             shape = RoundedCornerShape(4.dp)
         ) {
-            Crossfade(targetState = isRunning) {
-                if (isRunning) {
+            Crossfade(targetState = isRunning) { isNowRunning ->
+                if (isNowRunning) {
                     Icon(
                         imageVector = Icons.Filled.Pause,
                         modifier = Modifier.size(32.dp),

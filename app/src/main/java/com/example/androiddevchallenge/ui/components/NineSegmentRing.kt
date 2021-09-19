@@ -67,7 +67,7 @@ fun TenSegmentRing(
         val spacerPercent = 0.25f
         val sectionArchInRads = PI * 2 * (1 - spacerPercent) / sectionCount
         val spacerArchInRads = PI * 2 * spacerPercent / sectionCount
-        var nextStartAngle = (PI * 3 / 2) - (sectionArchInRads / 2)
+        var nextStartAngle = (PI * 3 / 2) + (spacerArchInRads / 2)
 
         repeat((0 until sectionCount).count()) {
             ringSegment(

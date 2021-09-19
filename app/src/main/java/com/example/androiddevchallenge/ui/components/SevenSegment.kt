@@ -118,7 +118,6 @@ private fun DrawScope.topBottomSegment(
             lineTo(toX(16), toY(1))
             lineTo(toX(13), toY(4))
             lineTo(toX(3), toY(4))
-            lineTo(toX(0), toY(1))
         }
     )
 }
